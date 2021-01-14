@@ -1,0 +1,9 @@
+device_6/
+device_10/
+PCAPs/
+utils/__pycache__/
+json_conv/
+json_total_conv/
+flow_json/
+flow_json_extended/
+__pycache__/

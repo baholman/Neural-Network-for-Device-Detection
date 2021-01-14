@@ -1,0 +1,25 @@
+Parse PCAP to JSON - python3 PCAP_to_JSON.py . f
+	This returns a flow_json file
+
+First way to run Neural Network:
+Run Neural network with no CSV created - python3 Neural_Network_tf.py .
+	This creates model files that represent the neural network created.
+	It also will output number of conversations correct and incorrect.
+
+Second way to run Neural Network:
+Run Neural network with CSV files for each conversation and synthetic data
+	- python3 Get_NN_Input_ToCSV.py .
+	- python3 Smote.py
+	- python3 Neural_Network_tf_fromCSV.py
+	This creates model files that represent the neural network created.
+	This creates csv files for each converation, and it will create synthetic data
+	It also will output number of conversations correct and incorrect.
+
+
+Third way to run Neural Network (best/fastest):
+Run Neural network with CSV files for each conversation and synthetic data, but put into bulk JSON files for speed
+	- python3 Get_NN_Input_ToCSV.py .
+	- python3 Smote.py
+	- python3 CSV_to_JSON.py
+	- python3 Neural_Network_tf_fromJSON.py
+	This takes the CSV conversations and puts them in bulk json files. This way the neural network doesn't have to open and close 	thousands of CSV files. This also includes all conversations and provides the best way for training and testing.

@@ -1,0 +1,23 @@
+Device,MAC Address,Type,Class
+device_12,48:d6:d5:79:37:85,Google Assistant,0
+device_1,c0:56:27:54:28:91,Camera,3
+device_9,18:b4:30:e4:83:a2,Camera,3
+,18:b4:30:1f:17:19,Miscellaneous,-1
+device_13,b4:75:0e:0c:a9:61,WeMo Outlet,4
+device_6,48:d6:d5:98:71:cb,Google Assistant,0
+device_10,4c:ef:c0:0:94:8e,Amazon Assistant,1
+device_19,2c:61:f6:75:0a:72,Mobile Device (iPad),5
+device_8,b8:e9:37:57:30:be,Speaker,6
+device_14,0c:47:c9:10:d4:6f,Amazon Assistant,1
+device_7,ac:cf:23:65:e5:e4,Orvibo Outlet,4
+device_3,d4:90:9c:d5:e1:48,Apple Assistant,2
+device_0,18:b4:30:e4:c6:2d,Camera,3
+device_4,b4:79:a7:24:38:1a,Wink Hub,7
+device_2,54:c9:df:8e:88:3f,LaMetric Clock,8
+device_33,,,-1
+device_5,,,-1
+device_11,,,-1
+device_16,,,-1
+device_18,,,-1
+device_20,,,-1
+device_32,,,-1
